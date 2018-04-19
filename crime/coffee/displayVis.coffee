@@ -5,8 +5,8 @@ $ ->
   map_data = null
   map = null
   charts = []
-  colorScheme = 'Spectral'
-  #colorScheme = 'PiYG'
+  #colorScheme = 'Spectral'
+  colorScheme = 'PiYG'
 
   current_state = ''
   domain = [10, 20, 50, 100, 200, 400, 800, 1500]

@@ -21,7 +21,7 @@
 
 <div class="container-fluid">
     <div class="row-fluid">
-        <div class="span1"><h5>US Crime</h5>
+        <div class="span1"><h5>Integracao de Forças</h5>
             <fieldset>
                 <div data-bind="foreach: crimes">
                     <span data-bind="text: $parent.capitalize(type)"></span>
@@ -39,16 +39,12 @@
                     <br/>
                 </div>
             </fieldset>
-            <div id="aux">
-                <a href="https://github.com/fierval/GeoJson/tree/master/crime">GitHub</a><br/>
-                <a href="https://explore.data.gov/Law-Enforcement-Courts-and-Prisons/2008-Crime-in-the-United-States/bds9-jrca">Data
-                    Source</a>
-            </div>
+            
         </div>
         <div class="span11">
             <div id="view_selection" class="btn-group">
-                <a href="#all_states" id="all_states" class="btn active">All States</a>
-                <a href="#by_state" id="by_state" class="btn">By State</a>
+                <a href="#all_states" id="all_states" class="btn active">Todos Municipios</a>
+                <a href="#by_state" id="by_state" class="btn">Por Municipios</a>
                 <!-- <a href="#map" id="map" class="btn">Map</a> -->
             </div>
             <!-- Visualization goes here -->
