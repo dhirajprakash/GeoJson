@@ -19,7 +19,7 @@ class @Search
 
       if $(findEntity).length < 1
         html = '<div class="control-group" style="left: ' + @anchor.x + 'px; top: ' + @anchor.y + 'px; position: relative; width: 200px" >
-                                    <label class="control-label" for="findEntity">Find:</label>
+                                    <label class="control-label" for="findEntity">Busca:</label>
                                     <div class="controls">
                                         <input type="text" autocomplete="off" style="width: 150px" id="findEntity" name="findEntity">
                                     </div>

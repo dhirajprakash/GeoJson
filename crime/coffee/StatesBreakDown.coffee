@@ -30,7 +30,7 @@ class @StatesBreakDown extends BreakdownChart
     @legend.show(true)
     @create_scale()
 
-    $(@id).append("<div style='position: relative; left: #{@width}px; top: -600px'><span>Click a bubble for details</span></div>")
+    $(@id).append("<div style='position: relative; left: #{@width}px; top: -600px'><span>Clicar em bolhas para detalhes</span></div>")
 
   get_group_data: (d) ->
     [d]
@@ -45,7 +45,7 @@ class @StatesBreakDown extends BreakdownChart
       @trigger_show_cities(d, i, this)
 
   show_details: (data) =>
-    content = "<b> &lt;Click Me&gt; </b><br />"
+    content = "<b> &lt;Clique&gt; </b><br />"
     content += "Population: #{@fixed_formatter(data.value)}<br/>Crime: #{@fixed_formatter(d3.sum(data[crime] for crime in @crimes))}<br />"
     content += "Crime per 100,000: #{@percent_formatter(data.group)}"
 

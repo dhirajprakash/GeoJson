@@ -57,7 +57,7 @@
       });
       this.legend.show(true);
       this.create_scale();
-      return $(this.id).append(`<div style='position: relative; left: ${this.width}px; top: -600px'><span>Click a bubble for details</span></div>`);
+      return $(this.id).append(`<div style='position: relative; left: ${this.width}px; top: -600px'><span>Clicar em bolhas para detalhes</span></div>`);
     }
 
     get_group_data(d) {
@@ -78,7 +78,7 @@
     show_details(data) {
       var content, crime;
       boundMethodCheck(this, ref);
-      content = "<b> &lt;Click Me&gt; </b><br />";
+      content = "<b> &lt;Clique&gt; </b><br />";
       content += `Population: ${this.fixed_formatter(data.value)}<br/>Crime: ${this.fixed_formatter(d3.sum((function() {
         var j, len, ref1, results;
         ref1 = this.crimes;

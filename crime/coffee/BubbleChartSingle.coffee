@@ -74,7 +74,7 @@ class @BubbleChart
     values = @get_circular_scale_values()
 
     if !@bubble_scale? or !@bubble_scale.exists()
-      @bubble_scale = new CircularScale(@id, "circularScale", "Circles are sized by population", @radius_scale, values, if anchor? then anchor else {x:@width, y: -@height})
+      @bubble_scale = new CircularScale(@id, "circularScale", "Cirulos por população", @radius_scale, values, if anchor? then anchor else {x:@width, y: -@height})
     else
       @bubble_scale.refresh(@radius_scale, values)
 

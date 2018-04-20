@@ -1,7 +1,7 @@
 {
   "ALABAMA": {
     "id": "ALABAMA",
-    "name": "Alabama",
+    "name": "SP",
     "value": 2517349,
     "violent": 15376,
     "property": 138355,
@@ -15,7 +15,7 @@
     "arson": 291,
     "cities": [
       {
-        "city": "Abbeville",
+        "city": "Americana",
         "population": 2939,
         "violent": 16,
         "murder": 0,
@@ -29,11 +29,11 @@
         "arson": 0,
         "id": "city_0",
         "value": 2939,
-        "name": "Abbeville",
+        "name": "Americana",
         "group": 544.402832
       },
       {
-        "city": "Addison",
+        "city": "Paulina",
         "population": 715,
         "violent": 5,
         "murder": 0,
@@ -47,7 +47,7 @@
         "arson": 0,
         "id": "city_1",
         "value": 715,
-        "name": "Addison",
+        "name": "Paulina",
         "group": 699.3007
       },
       {
